@@ -1,0 +1,68 @@
+{
+    "name": "$addButton",
+	"description": "Adds button to the response. Check wiki for examples.",
+	"usage": "$addButton[new row;button ID/URL;label;style;(disabled;emoji;message ID)]",
+	"arguments": [{
+	    "name": "name", 
+		"description": null, 
+		"type": "type", 
+		"flags": "flag",
+        "enum": null
+	},
+    {
+        "name": "new row",
+        "description": null,
+        "type": "Bool",
+        "flags": "Required",
+        "enum": null
+    },
+    {
+        "name": "button ID/URL",
+        "description": null,
+        "type": "String | URL",
+        "flags": "Required",
+        "enum": null
+    },
+    {
+        "name": "label",
+        "description": null,
+        "type": "String",
+        "flags": "Emptiable",
+        "enum": null
+    },
+    {
+        "name": "style",
+        "description": "Check Wiki for details",
+        "type": "Enum",
+        "flags": "Required",
+        "enum": "primary, secondary, success, danger, link"
+    },
+    {
+        "name": "disabled",
+        "description": null,
+        "type": "Bool",
+        "flags": "Vacantable",
+        "enum": null
+    },
+    {
+        "name": "emoji",
+        "description": null,
+        "type": "Bool",
+        "flags": "Vacantable",
+        "enum": null
+    },
+    {
+        "name": "message ID",
+        "description": null,
+        "type": "Snowflake",
+        "flags": "Vacantable",
+        "enum": null
+    }],
+	"argument_count": "7",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addButton.html",
+    "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/guides/buttons.html",
+	"has": {
+	    "brackets": true,
+        "multiple_usages": false
+    }
+}
