@@ -1,12 +1,12 @@
 {
     "name": "$addButton",
-	"description": "Adds button to the response. Check wiki for examples.",
-	"usage": "$addButton[new row;button ID/URL;label;style;(disabled;emoji;message ID)]",
-	"arguments": [{
-	    "name": "name", 
-		"description": null, 
-		"type": "type", 
-		"flags": "flag",
+    "description": "Adds button to the response. Check wiki for examples.",
+    "usage": "$addButton[new row;button ID/URL;label;style;(disabled;emoji;message ID)]",
+    "arguments": [{
+        "name": "name", 
+        "description": null, 
+        "type": "type", 
+        "flags": "flag",
         "enum": null
 	},
     {
@@ -58,11 +58,11 @@
         "flags": "Vacantable",
         "enum": null
     }],
-	"argument_count": "7",
+    "argument_count": "7",
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addButton.html",
     "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/guides/buttons.html",
-	"has": {
-	    "brackets": true,
+    "has": {
+        "brackets": true,
         "multiple_usages": false
     }
 }
