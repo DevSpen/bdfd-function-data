@@ -8,7 +8,7 @@
         "type": "type", 
         "flags": "flag",
         "enum": null
-	},
+    },
     {
         "name": "new row",
         "description": null,
