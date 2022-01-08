@@ -1,0 +1,16 @@
+{
+	name: "$addReactions",
+	description: "Allows you to autoreact to the bot's response",
+	usage: "$addReactions[emoji;...]",
+	params: [{
+    "name": "emoji", 
+    "description": "Normal emoji, or Custom emoji ID", 
+    "type": "string", 
+    "flags": "required"
+  }],
+  param_count: 1,
+  has: {
+    "brackets":true,
+    "multiple_usages":true,
+  }
+ }
