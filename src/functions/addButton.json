@@ -63,6 +63,7 @@
     "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/guides/buttons.html",
     "has": {
         "brackets": true,
-        "multiple_usages": false
+        "multiple_usages": false,
+        "ellipsis": false
     }
 }

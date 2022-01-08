@@ -1,0 +1,20 @@
+{
+    "name": "$addCmdReactions",
+    "description": "Allows you to auto-react to your message",
+    "usage": "$addCmdReactions[emoji;...]",
+    "arguments": [{
+        "name": "emoji",
+        "description": "Normal emoji, or Custom emoji ID",
+        "type": "String",
+        "flags": "Required",
+        "enum": null
+    }],
+    "argument_count": "1",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addCmdReactions.html",
+    "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addCmdReactions.html",
+    "has": {
+        "brackets": true,
+        "multiple_usages": false,
+        "ellipsis": true
+    }
+}
