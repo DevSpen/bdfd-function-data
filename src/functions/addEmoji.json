@@ -1,0 +1,34 @@
+{
+    "name": "$addEmoji",
+    "description": "Adds emoji to the server and if <return emoji> is set to 'yes' the newly added emoji is returned",
+    "usage": "$addEmoji[name;url;return emoji]",
+    "arguments": [{
+        "name": "name", 
+        "description": null, 
+        "type": "String", 
+        "flags": "Required",
+        "enum": null
+    },
+    {
+        "name": "url",
+        "description": null,
+        "type": "URL",
+        "flags": "Required",
+        "enum": null
+    },
+    {
+        "name": "return emoji",
+        "description": null,
+        "type": "Bool",
+        "flags": "Required",
+        "enum": null
+    }],
+    "argument_count": "7",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addEmoji.html",
+    "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addEmoji.html",
+    "has": {
+        "brackets": true,
+        "multiple_usages": false,
+        "ellipsis": false
+    }
+}
