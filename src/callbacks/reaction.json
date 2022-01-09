@@ -1,0 +1,12 @@
+{
+    "name": "$reaction",
+    "description": "Used for awaited reactions.",
+    "usage": "$reaction[name]",
+    "premium": true,
+    "intents": "MESSAGE_CONTENT",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/premium/awaitedReactions.html",
+    "has": {
+        "brackets": true,
+        "multiple_usages": false
+    }
+}

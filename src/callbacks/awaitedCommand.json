@@ -1,0 +1,12 @@
+{
+    "name": "$awaitedCommand",
+    "description": "Used for awaited functions.",
+    "usage": "$awaitedCommand[name;filter]",
+    "premium": false,
+    "intents": "MESSAGE_CONTENT",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/guides/awaitedCommands.html",
+    "has": {
+        "brackets": true,
+        "multiple_usages": false
+    }
+}
