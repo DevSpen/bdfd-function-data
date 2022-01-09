@@ -3,6 +3,7 @@
     "description": "Triggered when someone leaves the server",
     "usage": "$onLeave[channelID]",
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onLeave.html",
+    "premium": false,
     "has": {
         "brackets": true,
         "multiple_usages": false,
