@@ -2,11 +2,11 @@
     "name": "$onBanAdd",
     "description": "Triggered when someone has been banned from the server",
     "usage": "$onBanAdd[channelID]",
-    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onBanAdd.html",
     "premium": false,
+    "intents": null,
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onBanAdd.html",
     "has": {
         "brackets": true,
-        "multiple_usages": true,
-        "ellipsis": false
+        "multiple_usages": true
     }
 }
