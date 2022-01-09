@@ -10,6 +10,8 @@
         "enum": null
     }],
     "argument_count": 1,
+    "premium": false,
+    "intents": null,
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addReactions.html",
     "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addReactions.html",
     "has": {
