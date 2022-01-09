@@ -7,6 +7,6 @@
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onBanAdd.html",
     "has": {
         "brackets": true,
-        "multiple_usages": true
+        "multiple_usages": false
     }
 }
