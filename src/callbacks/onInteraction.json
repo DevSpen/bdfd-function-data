@@ -1,0 +1,12 @@
+{
+    "name": "$onInteraction",
+    "description": "Triggered by a component interaction. For example: a user pressing a button",
+    "usage": "$onInteraction[interaction ID]",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onInteraction.html",
+    "premium": false,
+    "has": {
+        "brackets": true,
+        "multiple_usages": true,
+        "ellipsis": false
+    }
+}

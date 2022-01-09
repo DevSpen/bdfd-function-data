@@ -1,0 +1,41 @@
+{
+    "name": "$addField",
+    "description": "Adds field to embed. The third arguments sets if the field may be inline",
+    "usage": "$addField[name;value;(inline;index)]",
+    "arguments": [{
+        "name": "name",
+        "description": null,
+        "type": "String",
+        "flags": "Required",
+        "enum": null
+    },
+    {
+        "name": "value",
+        "description": null,
+        "type": "String",
+        "flags": "Required",
+        "enum": null
+    },
+    {
+        "name": "inline",
+        "description": null,
+        "type": "Bool",
+        "flags": "Optional",
+        "enum": null
+    },
+    {
+        "name": "index",
+        "description": null,
+        "type": "Integer",
+        "flags": "Optional",
+        "enum": null
+    }],
+    "argument_count": 4,
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addField.html",
+    "reference_wiki": "https://nilpointer-software.github.io/bdfd-wiki/bdscript/addField.html",
+    "has": {
+        "brackets": true,
+        "multiple_usages": false,
+        "ellipsis": false
+    }
+}

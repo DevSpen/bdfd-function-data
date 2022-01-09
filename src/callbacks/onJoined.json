@@ -5,6 +5,7 @@
     "premium": false,
     "intents": "GUILD_MEMBERS",
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onJoined.html",
+    "premium": false,
     "has": {
         "brackets": true,
         "multiple_usages": false
