@@ -3,6 +3,7 @@
     "description": "Triggered when someone has been unbanned the server",
     "usage": "$onBanRemove[channelID]",
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onBanRemove.html",
+    "premium": false,
     "has": {
         "brackets": true,
         "multiple_usages": true,
