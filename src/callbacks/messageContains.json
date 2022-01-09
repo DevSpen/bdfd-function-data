@@ -1,0 +1,12 @@
+{
+    "name": "$messageContains",
+    "description": "Command gets triggered every time message contains one of the provided words",
+    "usage": "$messageContains[word1;word2;etc]",
+    "premium": true,
+    "intents": "MESSAGE_CONTENT",
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/premium/messageContains.html",
+    "has": {
+        "brackets": true,
+        "multiple_usages": false
+    }
+}

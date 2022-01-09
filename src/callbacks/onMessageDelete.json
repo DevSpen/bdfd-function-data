@@ -2,11 +2,11 @@
     "name": "$onMessageDelete",
     "description": "Triggered when someone deletes a message",
     "usage": "$onMessageDelete[channelID]",
-    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onMessageDelete.html",
     "premium": false,
+    "intents": null,
+    "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onMessageDelete.html",
     "has": {
         "brackets": true,
-        "multiple_usages": true,
-        "ellipsis": false
+        "multiple_usages": false
     }
 }
