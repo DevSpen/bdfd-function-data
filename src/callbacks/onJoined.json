@@ -3,6 +3,7 @@
     "description": "Triggered when someone joins the server",
     "usage": "$onJoined[channelID]",
     "wiki": "https://nilpointer-software.github.io/bdfd-wiki/callbacks/onJoined.html",
+    "premium": false,
     "has": {
         "brackets": true,
         "multiple_usages": false,
